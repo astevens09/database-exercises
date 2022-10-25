@@ -1,11 +1,11 @@
 USE codeup_test_db;
 
-DROP TABLE IF EXISTS quotes;
+DROP TABLE IF EXISTS albums;
 
 CREATE TABLE IF NOT EXISTS albums (
     id INT UNSIGNED AUTO_INCREMENT,
-    superArtist VARCHAR(100) NOT NULL,
-    name VARCHAR(100) NOT NULL,
+    artist VARCHAR(100) NOT NULL,
+    album_name VARCHAR(100) NOT NULL,
     release_date INT UNSIGNED,
     sales FLOAT,
     genre VARCHAR(100),
